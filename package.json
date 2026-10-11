@@ -1,0 +1,47 @@
+{
+  "name": "zimankit-playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/core"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "predev": "node scripts/prepare-engine.mjs",
+    "prebuild": "node scripts/prepare-engine.mjs",
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "npm run build:core && next build",
+    "build:core": "npm run build --workspace zimankit",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "docx": "9.5.1",
+    "fflate": "0.8.3",
+    "hunspell-wasm": "0.3.0",
+    "lucide-react": "1.55.0",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zimankit": "*"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "prettier": "3.6.2",
+    "tailwindcss": "4.3.3",
+    "tsup": "8.5.1",
+    "typescript": "5.9.3",
+    "vitest": "5.0.3",
+    "wrangler": "4.149.0"
+  }
+}

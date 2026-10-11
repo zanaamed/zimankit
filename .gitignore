@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+packages/core/dist/
+.wrangler/
+coverage/
+*.tsbuildinfo
+.env*
+.dev.vars*
+!\.env.example
+design/workspace-concept.png
+*.tgz
+public/vendor/hunspell/

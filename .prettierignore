@@ -1,0 +1,8 @@
+node_modules/
+.next/
+out/
+packages/core/dist/
+.wrangler/
+public/fonts/
+design/workspace-concept.png
+package-lock.json

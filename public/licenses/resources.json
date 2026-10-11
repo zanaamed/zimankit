@@ -1,0 +1,30 @@
+{
+  "kurdishHunspell": "88131d6878ef7fa3ee114aa554adc385ff85b44c",
+  "klpt": "0fb7d35e8000a3f89ab8c727f2d1051d899c192f",
+  "files": [
+    {
+      "path": "dictionaries/ckb-Arab.aff",
+      "sha256": "c97a85221414ca3910607b3c0622ad2c3709a7fceee630abeb4f2320e98bf820"
+    },
+    {
+      "path": "dictionaries/ckb-Arab.dic",
+      "sha256": "7120832507bbf2730525348a331a3245bf867f5d3db5ecbdd430b4c1120d47be"
+    },
+    {
+      "path": "dictionaries/kmr-Latn.aff",
+      "sha256": "cbb36a8d58182c24114316cdb74014ce15610cda76bd64239486e41b822ae87c"
+    },
+    {
+      "path": "dictionaries/kmr-Latn.dic",
+      "sha256": "5ddce75891052a63885ebba3183756aece9835b18580bc1edcdfdb87d9192b5e"
+    },
+    {
+      "path": "klpt/preprocess_map.json",
+      "sha256": "8d9d2cb747514de931b2e976fa7e280531d5b819a857bd939520cbac1a916933"
+    },
+    {
+      "path": "klpt/stopwords.json",
+      "sha256": "3c52d7d61f2c4c2701416a3166850611d00fdf0afd9f3d86b77b21a1392d5d6a"
+    }
+  ]
+}
